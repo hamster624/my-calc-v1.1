@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExpantaNum Calculator</title>
+  <script src="ExpantaNum.js"></script>
+  <script src="calculator.js"></script>
+</head>
+<body>
+  <h1>ExpantaNum Calculator</h1>
+
+  <div>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" value="10" />
+  </div>
+
+  <div>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" value="5" />
+  </div>
+
+  <div>
+    <button onclick="performOperation('add')">Add</button>
+    <button onclick="performOperation('subtract')">Subtract</button>
+    <button onclick="performOperation('multiply')">Multiply</button>
+    <button onclick="performOperation('divide')">Divide</button>
+    <button onclick="performOperation('exponentiate')">Exponentiate</button>
+    <button onclick="performOperation('tetrate')">Tetrate</button>
+    <button onclick="performOperation('pentate')">Pentate</button>
+    <button onclick="performOperation('hexate')">Hexate</button>
+  </div>
+
+  <h2>Result:</h2>
+  <p id="result">Result will be displayed here.</p>
+</body>
+</html>
